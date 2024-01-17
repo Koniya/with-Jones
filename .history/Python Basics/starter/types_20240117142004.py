@@ -16,6 +16,4 @@ print(type(num_cities)) #? int
 print(type(has_earthquake)) #? bool
 print(type(life_expectancy)) #? float
 
-#invalid variables
-
-global = "Lorenzo"
+connie@ = "Lorenzo"
