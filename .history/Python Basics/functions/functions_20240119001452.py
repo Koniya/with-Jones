@@ -35,14 +35,13 @@ print (square_measurements(8))
 '''
 
 def square_measurements(side):      
-    #side = 8
+    side = 8
     area_sq = side*side
     peri_sq = side*4
     return area_sq, peri_sq
 
-side = 8
-area_sq, peri_sq = square_measurements(side)
-print (f"The area of a square with side {side} is {area_sq}, while its perimeter is {peri_sq}.")
+area_sq, peri_sq = square_measurements
+print (f"The area of a square with side {side} is {area_sq}, while its perimeter is {peri_sq}."
 
 
 

@@ -25,25 +25,13 @@ print(f"The perimeter of the square with the side measurement of {side}cm is {re
 
 print(f"The area of the square with the side measurement of {side}cm is {result}")
 '''
-'''
-def square_measurements(side):      
-    area_sq = side*side
-    peri_sq = side*4
-    print(f"The area of a square with a side of {side} is {area_sq}, while its perimeter is {peri_sq}.")
-
-print (square_measurements(8))
-'''
-
-def square_measurements(side):      
-    #side = 8
+def square_measurements(side):
+    side = 8    
     area_sq = side*side
     peri_sq = side*4
     return area_sq, peri_sq
 
-side = 8
-area_sq, peri_sq = square_measurements(side)
-print (f"The area of a square with side {side} is {area_sq}, while its perimeter is {peri_sq}.")
-
+print (f"The area and perimeter of a square area {square_measurements(side)}")
 
 
 
