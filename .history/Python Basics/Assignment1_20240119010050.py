@@ -32,7 +32,7 @@ def lowercase_first (string1):
         else:
             uc_char.append (var)
         
-    print ("".join (lc_char+uc_char)) #return should be use here
+    print ("".join (lc_char+uc_char))
     
 print(lowercase_first("PyNaTive"))
 
