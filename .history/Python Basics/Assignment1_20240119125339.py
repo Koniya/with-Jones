@@ -1,4 +1,6 @@
-#Item 1
+
+Item 1
+
 def lowercase_first(string1):
     lowerCase = ""
     for var in string1:

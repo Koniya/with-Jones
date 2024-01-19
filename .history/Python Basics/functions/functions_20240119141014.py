@@ -57,7 +57,7 @@ def print_lyrics():
      print("How sweet the sound")    
      return "that saved a wretched"
 
-#print_lyrics()
+print_lyrics()
 
 song = print_lyrics()
 print(song)

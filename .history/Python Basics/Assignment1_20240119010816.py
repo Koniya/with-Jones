@@ -1,37 +1,38 @@
 #Item 1
-def lowercase_first(string1):
+"""
+def lowercase_first (string1):
     lowerCase = ""
     for var in string1:
         if var.islower():
             lowerCase = string1
             print(lowerCase)
         else:
-            print(lowerCase+string1)
+            print (lowerCase+string1)
         
 print(lowercase_first('PyNaTive'))
-
-
+"""
+"""
 string1 = "PyNaTive"
 lc_list= [] 
 uc_list= []
 for var in string1:
     if var.islower():
-        lc_list.append(var)
+        lc_list.append (var)
     else:
-        uc_list.append(var)
+        uc_list.append (var)
 ans = "".join(lc_list+uc_list)
-print(ans)
-
-def lowercase_first(string1):
+print (ans)
+"""
+def lowercase_first (string1):
     lc_char = []
     uc_char = []
     for var in string1:
         if var.islower():
-            lc_char.append(var)
+            lc_char.append (var)
         else:
-            uc_char.append(var)
+            uc_char.append (var)
         
-    print("".join (lc_char+uc_char)) #return should be use here
+    print ("".join (lc_char+uc_char)) #return should be use here
     
 print(lowercase_first("PyNaTive"))
 
@@ -79,8 +80,7 @@ letters, numbers, symbols = string_counter(string)
 print(f"The string {string} has {letters} letters, {numbers} numbers, and {symbols} symbols")
     
 #The string P@#yn26at^&i5ve has 8 letters, 3 numbers, and 5 symbols
-
-'''   
+    
 def string_counter(string):
     letters = 0 #container for letters. Initialized to 0.
     numbers = 0
@@ -92,7 +92,7 @@ def string_counter(string):
         if counter.isdigit():
             numbers +=1
         else:
-            if 
+            if counter.punctuation():
                 symbols += 1
     return letters, numbers, symbols # remember that tab space is important in Python
 
@@ -101,4 +101,5 @@ letters, numbers, symbols = string_counter(string)
 print(f"The string {string} has {letters} letters, {numbers} numbers, and {symbols} symbols")
     
 #The string P@#yn26at^&i5ve has 8 letters, 3 numbers, and 5 symbols
-'''
+
+

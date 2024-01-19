@@ -1,4 +1,6 @@
-#Item 1
+'''
+Item 1
+
 def lowercase_first(string1):
     lowerCase = ""
     for var in string1:
@@ -9,8 +11,8 @@ def lowercase_first(string1):
             print(lowerCase+string1)
         
 print(lowercase_first('PyNaTive'))
-
-
+"""
+"""
 string1 = "PyNaTive"
 lc_list= [] 
 uc_list= []
@@ -21,7 +23,7 @@ for var in string1:
         uc_list.append(var)
 ans = "".join(lc_list+uc_list)
 print(ans)
-
+"""
 def lowercase_first(string1):
     lc_char = []
     uc_char = []
@@ -80,7 +82,7 @@ print(f"The string {string} has {letters} letters, {numbers} numbers, and {symbo
     
 #The string P@#yn26at^&i5ve has 8 letters, 3 numbers, and 5 symbols
 
-'''   
+'''    
 def string_counter(string):
     letters = 0 #container for letters. Initialized to 0.
     numbers = 0
@@ -102,3 +104,4 @@ print(f"The string {string} has {letters} letters, {numbers} numbers, and {symbo
     
 #The string P@#yn26at^&i5ve has 8 letters, 3 numbers, and 5 symbols
 '''
+
