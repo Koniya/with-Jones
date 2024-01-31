@@ -113,75 +113,10 @@ num = even_or_odd(int(input("Enter a number: ")))
 
 #Combining item 3 and item 4
 '''
+
 num = int(input("Enter a number: "))
 
 def classify_number():
-    is_odd = False
-    is_even = False
-    is_prime = False
-    
-    
-    if num == 1:
-        is_odd = True
-    if num == 2:
-        is_even = True
-        is_prime = True
-
-#Identify if a number is an even or odd number     
-        
-    if num % 2 == 0:
-        is_even = True
-    else:
-        is_odd = True
-
-#Identify is a number is a prime number or not
-        
-    if num > 1:
-        for i in range(2, num):
-            if(num%i)==0:
-                is_prime = False
-                break
-            else:
-                is_prime = True
-                break
-              
-classify_number()             
-'''
-
-# def check_num_properties(n):
-#     is_odd = ((n % 2) != 0)
-#     is_even = ((n % 2) == 0)
-
-#     if n <= 1:
-#         is_prime = False
-#     elif n == 2:
-#         is_prime = True
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''       
-num = int(input("Enter a number: "))
-
-def classify_number():    
     if num == 1:
         print(f"{num} is not a prime number.")
     if num == 2:
@@ -205,8 +140,11 @@ def classify_number():
                 print(f"{num} is a prime number.")
                 break
               
-classify_number()
-'''
+classify_number()             
+'''           
+       
+
+
 
 
    
